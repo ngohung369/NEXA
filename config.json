@@ -1,0 +1,18 @@
+{
+  "port": 3003,
+  "dataDir": "G:/My Drive/NEXA",
+  "appName": "NEXA",
+  "tagline": "Connect Everything",
+  "https": false,
+  "trustProxy": false,
+  "sessionDays": 30,
+  "leaseSeconds": 90,
+  "iceServers": [
+    {
+      "urls": "stun:stun.l.google.com:19302"
+    }
+  ],
+  "turn": null,
+  "mapTileUrl": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+  "contactEmail": ""
+}

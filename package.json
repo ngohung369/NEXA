@@ -1,0 +1,16 @@
+{
+  "name": "nexa",
+  "version": "2.0.0",
+  "description": "Chat nội bộ kiểu Zalo, dữ liệu lưu trong thư mục Google Drive, không cần thư viện ngoài",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "cert": "node tools/make-cert.js",
+    "test": "node tests/convstore.js && node tests/e2e.js && node tests/access.js && node tests/filectl.js && node tests/datatool.js && node tests/ai.js && node tests/tunnel.js && node tests/push.js && node tests/remote.js && node tests/report.js",
+    "icons": "python3 tools/make-icons.py"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
